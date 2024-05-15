@@ -38,7 +38,7 @@ public class CalculateTicket {
         }
 
         // Output biglietto
-        System.out.printf("Il prezzo totale del biglietto è: %.2f €\\n", final_price);
+        System.out.printf("Il prezzo totale del biglietto è: %.2f €\n", final_price);
 
 
 
