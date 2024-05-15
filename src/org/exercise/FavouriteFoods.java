@@ -15,7 +15,7 @@ public class FavouriteFoods {
         System.out.println("L'ultimo elemento della lista è: " + favourite_foods[length_ranking - 1]);
 
         // Stampare l'elemento di mezzo della classifica
-        System.out.println("L'elemento di mezzo della classifica: " + favourite_foods[(length_ranking / 2) - 1]);
+        System.out.println("L'elemento di mezzo della classifica è: " + favourite_foods[(length_ranking / 2) - 1]);
 
 
     }
