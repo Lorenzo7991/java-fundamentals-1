@@ -14,8 +14,8 @@ public class MetGala {
 
         // Verifico se l'utente fa parte della lista di invitati
         boolean isInvited = false;
-        for (int i = 0; i < guests_list.length; i++) {
-            if (user_name_guest.equalsIgnoreCase(guests_list[i])) {
+        for (String guest : guests_list) {
+            if (user_name_guest.equalsIgnoreCase(guest)) {
                 isInvited = true;
                 break;
             }
