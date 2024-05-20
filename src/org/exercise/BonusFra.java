@@ -8,7 +8,7 @@ public class BonusFra {
         System.out.print("Inserisci la stringa in cui effettuare la ricerca: ");
         String userString = scanner.nextLine();
         System.out.print("Inserisci il carattere da cercare: ");
-        char userChar = scanner.next().charAt(0);
+        char userChar = scanner.nextLine().charAt(0);
         scanner.close();
 
         // Inizializzo variabili per memorizzare la lunghezza massima della sequenza e l'indice di inizio
